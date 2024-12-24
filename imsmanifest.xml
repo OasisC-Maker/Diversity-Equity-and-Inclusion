@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<manifest identifier="tkR2QgHxxRoK9FOe71ZjXNFgSViaWCyJvxkKQand" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Diversity, Equity, and Inclusion</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Diversity, Equity, and Inclusion</title>
+        <adlcp:datafromlms>eyJjcHYiOiJ2eGtLUWFuZCIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Poppins-BoldItalic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Bold.woff" />
+<file href="scormcontent/lib/fonts/Poppins-SemiBoldItalic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-SemiBold.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Italic.woff" />
+<file href="scormcontent/lib/fonts/Poppins-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/aDrdDfj6PMcMbgPJ_small.png" />
+<file href="scormcontent/assets/xKl7WZPJ5uEx5H_l_OlMqX4xyOiF6xpOt.jpg" />
+<file href="scormcontent/assets/ZOKEj0AJcLBqHMXs_transcoded-5RbuUCu88P7mnh0w-DEI%20Workshop%20Objectives.mp3" />
+<file href="scormcontent/assets/tNesLTSODTnu8vfO_transcoded-6AwpIisC1RL-4VyL-coursewarecom-00001.png" />
+<file href="scormcontent/assets/1wYh2uMm3yivHu2z_transcoded-6AwpIisC1RL-4VyL-coursewarecom.mp4" />
+<file href="scormcontent/assets/7gScR2YqzNS5XnwJ_zDUzj0Zhcye2JfMZ.jpg" />
+<file href="scormcontent/assets/e0PL--8WuaLZ9wHh_transcoded-IcmuQwyMo-YOw1Q9-DEI_%20Module%202_%20Slide%201.mp3" />
+<file href="scormcontent/assets/GA3p_DvYRz40pqPp_JhkEt1Sm_k_9K5nJ.jpg" />
+<file href="scormcontent/assets/z_xbEHI3RRYlcwm5_transcoded-k979I38IqnIl9qgt-DEI_%20Module%202_%20Slide%202.mp3" />
+<file href="scormcontent/assets/cZz3eukBNatMw_pH_transcoded-STBn1iR1fzQU-xDs-DEI_%20Module%202_%20Slide%203.mp3" />
+<file href="scormcontent/assets/K9uQ_np4iONAxLau_24wPRcg-Ma6D0E37.jpg" />
+<file href="scormcontent/assets/lKZVDBFQGhoJQNIb_wNmYfm1fmedCO0yM.jpg" />
+<file href="scormcontent/assets/UbnqCSoOInE9Ce41_Lnvv8Mfxi8zR8SLk.jpg" />
+<file href="scormcontent/assets/r3Rrk47pJs2o_CGF_kEMCl8rMqlGu51Vg.jpg" />
+<file href="scormcontent/assets/psk6Zrr3cxOKICpD_1j7x59tqc4sGWU3h.jpg" />
+<file href="scormcontent/assets/3rHsPGH2NANzWv3Z_transcoded-PzK92ms-b127s7sJ-DEI_%20Module%202_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Fuev8EQZKbaroMuu_mountains.jpg" />
+<file href="scormcontent/assets/9JnYgdeimpvG9Z6h_transcoded-7LxOsOu6Gr94M3JH-DEI_%20Module%202_%20Slide%205.mp3" />
+<file href="scormcontent/assets/zHBJcNYpAhukt-L__transcoded-P2XOVz-MiS8ls2VI-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%202-1080p-221018-00001.png" />
+<file href="scormcontent/assets/7-ZIkE10XRvEs3RA_transcoded-P2XOVz-MiS8ls2VI-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%202-1080p-221018.mp4" />
+<file href="scormcontent/assets/0oFaiSK4sb8FhZ5w_transcoded-2dzKtIdXqU1x99mE-DEI_%20Module%202_%20Slide%206.mp3" />
+<file href="scormcontent/assets/2KebFlWej6u0B_3G_D8DtfnOB7ngR89sR.jpg" />
+<file href="scormcontent/assets/ZipgfxTfEZQtiiv0_transcoded-i0M5fAib_YIqXO7G-DEI_%20Module%203_%20Slide%201.mp3" />
+<file href="scormcontent/assets/X8QOHl7dJYn6ua4R_transcoded-x58ySnpTMaudwiyJ-DEI_%20Module%203_%20Slide%202.mp3" />
+<file href="scormcontent/assets/pdKhHdIlIPMEY6S3_m27ILSPbD8bAS1g1.jpg" />
+<file href="scormcontent/assets/zjfMDVDC0LrUa03k_transcoded-JxSm0JiLfjuSS1Fu-DEI_%20Module%203_%20Slide%203.mp3" />
+<file href="scormcontent/assets/SN9t6CTD-Y7ZAcQr_hNLEhKqaAjQcTdm-.jpg" />
+<file href="scormcontent/assets/x--q7FnWBy9EIAT1_lpmgI5PbLuhPq7aw.jpg" />
+<file href="scormcontent/assets/HBU1VfoBGSOB_B-A_transcoded-oT5KuyfSuGMviqu4-DEI_%20Module%203_%20Slide%204.mp3" />
+<file href="scormcontent/assets/kU0OmnUHQF-HpwJi_sf_g_S93rwBA37KW.jpg" />
+<file href="scormcontent/assets/gM6_MPT_urlOTEXe_transcoded-9VuoR2-6zb9Dhtae-DEI_%20Module%203_%20Slide%205.mp3" />
+<file href="scormcontent/assets/WkTJZVIWmZ_2afNx_transcoded-bbR1ZoND14bCvAj2-DEI_%20Module%203_%20Slide%206.mp3" />
+<file href="scormcontent/assets/Q03eR1_ijm1qgSWo_LhLEQ5OAV6pQiCDU.jpg" />
+<file href="scormcontent/assets/BQlQ28birR0-lNeB_transcoded-KuhuJg15VS_nkpa4-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%203-1080p-221024-00001.png" />
+<file href="scormcontent/assets/WKDhkI1MY-zZY3Hk_transcoded-KuhuJg15VS_nkpa4-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%203-1080p-221024.mp4" />
+<file href="scormcontent/assets/rST8bNmu6R4UQRk1_SWAqpZL2CVXHMjOK.jpg" />
+<file href="scormcontent/assets/le-M2mPEahCbmfLD_transcoded-qIbXfi1yBZPowGnB-DEI_%20Module%204_%20Slide%201.mp3" />
+<file href="scormcontent/assets/IhpLjx9BkrH5AqOk_transcoded-nT0Xt3cG30BBQy3E-DEI_%20Module%204_%20Slide%202.mp3" />
+<file href="scormcontent/assets/WG2ezkNmEV3e_SHU_f2hfRIkdfWAEhX7I.jpg" />
+<file href="scormcontent/assets/nEodJ-s_Qjyd6N_k_6FqHyLk2vRmhA2oP.jpg" />
+<file href="scormcontent/assets/Rb1lwb9pxH0_uzKU_transcoded-W35WXACh36bd_i5L-DEI_%20Module%204_%20Slide%203.mp3" />
+<file href="scormcontent/assets/fb9XJWfo6IsRvt5o_transcoded-dnI2wq-cOEpR9owt-DEI_%20Module%204_%20Slide%204.mp3" />
+<file href="scormcontent/assets/acaqI4MC6F-bCVrl_transcoded-wEYEHYIx5GrWDjXc-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%204-1080p-221024-00001.png" />
+<file href="scormcontent/assets/ajrz0g4qkAaVQqYc_transcoded-wEYEHYIx5GrWDjXc-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%204-1080p-221024.mp4" />
+<file href="scormcontent/assets/i8e-TBd0ChufC-Vv_transcoded-gq4ryndrnHGXBTlw-DEI_%20Module%204_%20Slide%205.mp3" />
+<file href="scormcontent/assets/sPD6dnGwy6tVmtgv_-bC38G93myRDnx4n.jpg" />
+<file href="scormcontent/assets/UaYCeobGSvXih1Fk_Je1g36ZiNwUOpyce.jpg" />
+<file href="scormcontent/assets/CzjTywfW7wbqTgJs_aT4dQ6buSi-EJLCG.jpg" />
+<file href="scormcontent/assets/A4JpKsiP4g6ruDtE_transcoded-ihOtJCNqQocOKdSf-DEI_%20Module%204_%20Slide%206.mp3" />
+<file href="scormcontent/assets/aY2SLFJQtGlQ5nFh_Df-6ZSyGZEmvwpoo.jpg" />
+<file href="scormcontent/assets/Lud2CmPhtbiZRTKn_NvxT3KjwVoKSATZz.jpg" />
+<file href="scormcontent/assets/clCDQjOUCneCHNqL_transcoded-euerA99dDBd4IWpw-DEI_%20Module%205_%20Slide%201.mp3" />
+<file href="scormcontent/assets/SYGjNQ8EGnUV344p_transcoded-2j7UX4UPtXGg48_L-DEI_%20Module%205_%20Slide%202.mp3" />
+<file href="scormcontent/assets/YWfZw4O4lT2JOb3x_transcoded-ajl_ugc8PvCaw-oT-DEI_%20Module%205_%20Slide%203.mp3" />
+<file href="scormcontent/assets/aKbINZL3GlLQlmor_Am32w4h6gQb-kz-Z.jpg" />
+<file href="scormcontent/assets/Ig2D7INJM4077a_v_transcoded-2BXD3uOrBnwha8v2-DEI_%20Module%205_%20Slide%204.mp3" />
+<file href="scormcontent/assets/DpSFpASlTEKHDp_h_transcoded-PfrtGbZkOtZ8r6dq-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%205-1080p-221006-00001.png" />
+<file href="scormcontent/assets/b2Yv1cy6bJoGrb_E_transcoded-PfrtGbZkOtZ8r6dq-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%205-1080p-221006.mp4" />
+<file href="scormcontent/assets/F40XYxLfO-sEepiO_transcoded-dnFKvMYYojALEOIX-DEI_%20Module%205_%20Slide%205.mp3" />
+<file href="scormcontent/assets/rtaCIoYp-b27TWyM_0yvQqWqbar9ml2OT.jpg" />
+<file href="scormcontent/assets/B0IxS70zhdM2AskF_transcoded-MnKcy8RdEphjZ4g4-DEI_%20Module%205_%20Slide%206.mp3" />
+<file href="scormcontent/assets/1eoxM-LeL8zbprNw_hKGAaUpG_u1yUXZg.jpg" />
+<file href="scormcontent/assets/tW7d_Zlj5OBGh-Qa_transcoded-lPuq2o2cgp0-mWy7-DEI_%20Module%206_%20Slide%201.mp3" />
+<file href="scormcontent/assets/6Tt3Eql3WsHnmJRU_transcoded-5s5fmgO9CzjXSqGj-DEI_%20Module%206_%20Slide%202.mp3" />
+<file href="scormcontent/assets/zf4aEwopuspOUXcO_2I8E8T51QzQi7mV2.jpg" />
+<file href="scormcontent/assets/HxrD8GwJvnPV9Hh4_transcoded-diphTzZ_L-IX_VZo-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%206-1080p-221006-00001.png" />
+<file href="scormcontent/assets/L6ToWsfhMAclDS8r_transcoded-diphTzZ_L-IX_VZo-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%206-1080p-221006.mp4" />
+<file href="scormcontent/assets/whDTDFKE5mcmt8Jl_R-c4WFFinIy6yYE5.jpg" />
+<file href="scormcontent/assets/oWmyEA5h7jdsJXnO_transcoded-XnD5JvGM3F8z0_xT-DEI_%20Module%206_%20Slide%203.mp3" />
+<file href="scormcontent/assets/TPVeFGmnwcdesU_S_transcoded-CmyrYy8gFsU25ICf-DEI_%20Module%206_%20Slide%204.mp3" />
+<file href="scormcontent/assets/W_t4YahNAr8suF2w_6b54y17stZIYOuI3.jpg" />
+<file href="scormcontent/assets/6xJ8VcKly8yxeDF__qahxB7UOKQlhzM2a.jpg" />
+<file href="scormcontent/assets/oODPoHW1F0SqX8KW_2nJb2Xvqew4zAqME.jpg" />
+<file href="scormcontent/assets/qpA0iWcedjUanGFc_transcoded-eTEE6kXsGxGK7L9h-DEI_%20Module%206_%20Slide%205.mp3" />
+<file href="scormcontent/assets/JYv9UJE01-PV7pBk_csA_nEFZsCcw5jbb.jpg" />
+<file href="scormcontent/assets/nrnFexFXzslYAb51_transcoded-SjFQHBrk41C5Q5ID-DEI_%20Module%206_%20Slide%206.mp3" />
+<file href="scormcontent/assets/iBQU11G-a4trFzHK_Tc29sHwMntyoNvmx.jpg" />
+<file href="scormcontent/assets/z34ZfGmfNUUOx7Uf_transcoded-z4mgfcgxv_FrFIho-DEI_%20Module%207_%20Slide%201.mp3" />
+<file href="scormcontent/assets/LKYazGgWhMqBOtbd_transcoded-CHvtwepEYnj-mBZZ-DEI_%20Module%207_%20Slide%202.mp3" />
+<file href="scormcontent/assets/LJ1dzIg6rLsTWCNT_dOOWh2ec1hrjbSfo.jpg" />
+<file href="scormcontent/assets/UMdj7eQDipuLwae3_transcoded-_ez0SjFPN63HRelJ-DEI_%20Module%207_%20Slide%202.mp3" />
+<file href="scormcontent/assets/vN6cxVjyf6fGbl7f_-xbmG3qQy40c_n5A.jpg" />
+<file href="scormcontent/assets/aUm5PiTjhYyGkKWO_transcoded-xYDmwA90sIZi1kqh-DEI_%20Module%207_%20Slide%203.mp3" />
+<file href="scormcontent/assets/WdT3oMoqLPI7OVPQ_gFZba6ky0UADONPx.jpg" />
+<file href="scormcontent/assets/WMFt50m1E1rv517g_transcoded-ctqQxIqA57XXCOfI-DEI_%20Module%207_%20Slide%204.mp3" />
+<file href="scormcontent/assets/TWutZ5nB6O2bOXCf_z5BLlfovXMfXxli7.jpg" />
+<file href="scormcontent/assets/pkrMVrLKpoAcwLxP_transcoded-cfgDZST9edg3eOM0-DEI_%20Module%207_%20Slide%205.mp3" />
+<file href="scormcontent/assets/DQvK3A-3PUGm9o64_ZqA9wMuxW31mO8Do.jpg" />
+<file href="scormcontent/assets/WU7ncxhGBVHB5U9L_transcoded-J_2wvkHWrJ3nQYAQ-DEI_%20Module%207_%20Slide%206.mp3" />
+<file href="scormcontent/assets/JZkqnfUcEkbs3Ep-_transcoded-6IXyUL2IiUHD1eiI-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2007-1080p-221011-00001.png" />
+<file href="scormcontent/assets/ZPbpv0KnyF5dPpK9_transcoded-6IXyUL2IiUHD1eiI-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2007-1080p-221011.mp4" />
+<file href="scormcontent/assets/2QXZY2xYXvPzOsai_McYx3Gbf22bB85sg.jpg" />
+<file href="scormcontent/assets/gAU2T4uj1psyfMiy_transcoded-5l5jz_HLpyVessqk-DEI_%20Module%208_%20Slide%201.mp3" />
+<file href="scormcontent/assets/6L3_a3Owl50_QcLk_jgnJ8z5I9m9kuHjM.jpg" />
+<file href="scormcontent/assets/NFyaGw2SDRGSWyK8_transcoded-XLn5Epg8efU-ajjn-DEI_%20Module%208_%20Slide%202.mp3" />
+<file href="scormcontent/assets/zth17g3AfbbEGTTM_transcoded-JdFMuSJ3Q2Jlie1i-DEI_%20Module%208_%20Slide%203.mp3" />
+<file href="scormcontent/assets/SKL8MBGM4iByrqHA_buTg4m8-dFGwKbSm.jpg" />
+<file href="scormcontent/assets/afGs-WVcKgMnCRAz_IrmUlEEUbUnVlegV.jpg" />
+<file href="scormcontent/assets/dGs1OHvsSr9W3HYs_transcoded-zYxWe20v5fAuo0LE-DEI_%20Module%208_%20Slide%204.mp3" />
+<file href="scormcontent/assets/e5ivRy-lC9b7gq1t_kxMQIvRN9lqPU-Bu.jpg" />
+<file href="scormcontent/assets/9Axy7Cgm1Ua7jeZ2_transcoded-ibXfn3uEUnb1-rTJ-DEI_%20Module%208_%20Slide%205.mp3" />
+<file href="scormcontent/assets/2anF_aqcSAqME6u5_transcoded-GONuIen_bZ28BdGI-DEI_%20Module%208_%20Slide%206.mp3" />
+<file href="scormcontent/assets/WjpBUSwqcmY7BOfH_transcoded-6oc0U2G4pjrybuUT-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%208-1080p-221024-00001.png" />
+<file href="scormcontent/assets/KyjtTNfKYcBc_yQo_transcoded-6oc0U2G4pjrybuUT-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%208-1080p-221024.mp4" />
+<file href="scormcontent/assets/OdAXhOZpGdmms1Pu_G6uCpgCOM00v3keC.jpg" />
+<file href="scormcontent/assets/lgdHPWDB8pgr1ho6_transcoded--RrEtyI7dPY6C0Rv-DEI_%20Module%209_%20Slide%201.mp3" />
+<file href="scormcontent/assets/hfqGIvjj_NblZ-Va_jqPywOb8MYLJOXr9.jpg" />
+<file href="scormcontent/assets/bFe-tjsZfgohw4LV_transcoded-Za2Rxa4n3eDH_ydF-DEI_%20Module%209_%20Slide%202.mp3" />
+<file href="scormcontent/assets/6Ga9c2mIPGAxzi3X_transcoded-WsTMxG9YaRtigR1m-DEI_%20Module%209_%20Slide%203.mp3" />
+<file href="scormcontent/assets/vtho-R8UuJvo3kmx_HuWhdIwnCqNwDu6J.jpg" />
+<file href="scormcontent/assets/zAMzJXNM2oQ6SWCv_1w6vFMzJ-LZJkkb9.jpg" />
+<file href="scormcontent/assets/k_EyvdeU5HZHvel-_transcoded-Kkqi88LJ0dF6z7oe-DEI_%20Module%209_%20Slide%204.mp3" />
+<file href="scormcontent/assets/aVOTlgLC5coeb4_8_DpkiD7DJP_km_pl8.jpg" />
+<file href="scormcontent/assets/OeX09IQ6ogmjzNHA_transcoded-giIfZzYxOJoVDEL3-DEI_%20Module%209_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Qo4I8D57J7uCFi4t_48ZQScwDygAY5_iz.jpg" />
+<file href="scormcontent/assets/W7hMdKEpvxyQBLxv_transcoded-SWwbH1Pa-UToYY47-DEI_%20Module%209_%20Slide%206.mp3" />
+<file href="scormcontent/assets/MKd4tMGc60vfFyDM_transcoded-LQqFgQv4A4pdavmQ-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%209-1080p-221018-00001.png" />
+<file href="scormcontent/assets/Zh9s-uICduY7vowN_transcoded-LQqFgQv4A4pdavmQ-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%209-1080p-221018.mp4" />
+<file href="scormcontent/assets/1CY7-3IOMAuFM5uj_Wtp5-jNxyeouCHyy.jpg" />
+<file href="scormcontent/assets/7eoFmWri46_PwpqY_transcoded-AcreoUB-EHUUSd0o-DEI_%20Module%2010_%20Slide%201.mp3" />
+<file href="scormcontent/assets/tH9uXH0dQqVJDdNl_transcoded-pX2S9m6m_RoHn837-DEI_%20Module%2010_%20Slide%202.mp3" />
+<file href="scormcontent/assets/pym5xGA4qwtwZo3y_TphznoB2OnPaTY6q.jpg" />
+<file href="scormcontent/assets/9wlU3A9CbbG9Rwtj_9yFZSSuf-MkGKWTH.jpg" />
+<file href="scormcontent/assets/UlVEqlKJp8NN0j86_transcoded-w_eGGhhEvlqaCfI--DEI_%20Module%2010_%20Slide%203.mp3" />
+<file href="scormcontent/assets/o-WhUpFO5GfkIRIC_8tIJill7tnuELMZI.jpg" />
+<file href="scormcontent/assets/cMTuJJVWn_OewPeg_transcoded-_DPecrgdISOSij1_-DEI_%20Module%2010_%20Slide%204.mp3" />
+<file href="scormcontent/assets/N-uIeunzXz_4lbL0_oEog7OJUzd5caCqN.jpg" />
+<file href="scormcontent/assets/cN4yRDn3s4aGYLBn_transcoded-LM-msIh1cQpiiz6Y-DEI_%20Module%2010_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Rp1jpctzWwebYnSs_WzbAqdrXUcsgaCim.jpg" />
+<file href="scormcontent/assets/kTNY5F8O0trRs0K1_transcoded-wjMy6WpkHnCau-i4-DEI_%20Module%2010_%20Slide%206.mp3" />
+<file href="scormcontent/assets/5LSvWFST9kKwB3H5_transcoded-uedF3-dL3SfMSqi1-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2010-1080p-221017-00001.png" />
+<file href="scormcontent/assets/q0Mzbr2OLS6wVO5N_transcoded-uedF3-dL3SfMSqi1-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2010-1080p-221017.mp4" />
+<file href="scormcontent/assets/10btRS3zZp7QUxvU_ysOeCcM2X03b4HYN.jpg" />
+<file href="scormcontent/assets/8riWJbPJxy4l2CYL_transcoded-4IPucH3FREDJvXAx-DEI_%20Module%2011_%20Slide%201.mp3" />
+<file href="scormcontent/assets/sIfY93cDkz5XlHZ7_WP1l7JjL80qCygRs.jpg" />
+<file href="scormcontent/assets/qLv3Sz02JV6G4DbL_transcoded-lGv3bc_Fviw8PUbt-DEI_%20Module%2011_%20Slide%202.mp3" />
+<file href="scormcontent/assets/XTVT2szd_xiQYw2d_lK75V5EN9Z30z40H.jpg" />
+<file href="scormcontent/assets/O-q6KXFcqcNLXqc1_transcoded-ObqWYCv89Y8kIFtY-DEI_%20Module%2011_%20Slide%203.mp3" />
+<file href="scormcontent/assets/aTC4fVGEhUvKphc1_transcoded-iadFUZfccIaLwmRs-DEI_%20Module%2011_%20Slide%204.mp3" />
+<file href="scormcontent/assets/XlKoBKCDlswgU62-_iFR1lZCGdLgYUUaX.jpg" />
+<file href="scormcontent/assets/Xc9Q15vBwiGq9_nx_I4BKiJvlbtkf2NP4.jpg" />
+<file href="scormcontent/assets/oNySkTbiAroT-04H_sc8jujsS51Pw-OiB.jpg" />
+<file href="scormcontent/assets/QdFugoReL1DO9hlH_transcoded-CheCiL8dx5Xep0XW-DEI_%20Module%2011_%20Slide%205.mp3" />
+<file href="scormcontent/assets/J38hFucPT0_TPjH4_MdJfJXeFKW9ZjIzm.jpg" />
+<file href="scormcontent/assets/Sx2oEycEfipPI_hH_transcoded-NuQRpf6fuIdOvz0O-DEI_%20Module%2011_%20Slide%206.mp3" />
+<file href="scormcontent/assets/Wr7cwbjsP6d8A25x_transcoded-SxnRiiOImbsDm3qu-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2011-1080p-221024-00001.png" />
+<file href="scormcontent/assets/5Wwm8F2j5W0VSnnK_transcoded-SxnRiiOImbsDm3qu-Diversity%2C%20Equity%2C%20and%20Inclusion-%20Module%2011-1080p-221024.mp4" />
+<file href="scormcontent/assets/Cavr0OlvyOzS2hh8_L3GAsfSB38w8aFsu.jpg" />
+<file href="scormcontent/assets/c0H5esJrYSBx-T6S_9_cities.jpg" />
+<file href="scormcontent/assets/Gi96WdAm69seccxC_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
